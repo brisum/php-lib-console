@@ -1,0 +1,19 @@
+{
+  "name": "brisum/lib-console",
+  "description": "Console application",
+  "keywords": [],
+  "homepage": "https://github.com/brisum/php-lib-console",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Manchenko",
+      "email": "omanchenko@brisum.com",
+      "homepage": "http://brisum.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Brisum\\Lib\\Console\\": "src/"
+    }
+  }
+}
