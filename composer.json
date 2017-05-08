@@ -11,6 +11,12 @@
       "homepage": "http://brisum.com"
     }
   ],
+  "require": {
+    "illuminate/console": "5.3.23",
+    "symfony/process": "^3.2",
+    "illuminate/database": "^5.3",
+    "mtdowling/cron-expression": "^1.2"
+  },
   "autoload": {
     "psr-4": {
       "Brisum\\Lib\\Console\\": "src/"
